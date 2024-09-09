@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  FetchExercise
+//  UIKitProject
 //
-//  Created by Roman Mironyuk on 08.09.2024.
+//  Created by Roman Myroniuk on 08.09.2024.
 //
 
 import UIKit

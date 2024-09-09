@@ -7,69 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DEF40DF2C8E91B900354D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF40DE2C8E91B900354D51 /* AppDelegate.swift */; };
-		1DEF40E12C8E91B900354D51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF40E02C8E91B900354D51 /* SceneDelegate.swift */; };
-		1DEF40E32C8E91B900354D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF40E22C8E91B900354D51 /* ViewController.swift */; };
-		1DEF40E62C8E91B900354D51 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF40E52C8E91B900354D51 /* Base */; };
-		1DEF40E82C8E91BD00354D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF40E72C8E91BD00354D51 /* Assets.xcassets */; };
-		1DEF40EB2C8E91BD00354D51 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF40EA2C8E91BD00354D51 /* Base */; };
-		1DEF40F62C8E91BE00354D51 /* FetchExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF40F52C8E91BE00354D51 /* FetchExerciseTests.swift */; };
-		1DEF41002C8E91BE00354D51 /* FetchExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF40FF2C8E91BE00354D51 /* FetchExerciseUITests.swift */; };
-		1DEF41022C8E91BE00354D51 /* FetchExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41012C8E91BE00354D51 /* FetchExerciseUITestsLaunchTests.swift */; };
+		1DEF41152C8E982B00354D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41142C8E982B00354D51 /* AppDelegate.swift */; };
+		1DEF41172C8E982B00354D51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41162C8E982B00354D51 /* SceneDelegate.swift */; };
+		1DEF411C2C8E982B00354D51 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF411B2C8E982B00354D51 /* Base */; };
+		1DEF411E2C8E982E00354D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF411D2C8E982E00354D51 /* Assets.xcassets */; };
+		1DEF41212C8E982E00354D51 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF41202C8E982E00354D51 /* Base */; };
+		1DEF41492C8E986000354D51 /* FetchSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41482C8E986000354D51 /* FetchSwiftUIApp.swift */; };
+		1DEF414D2C8E986100354D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF414C2C8E986100354D51 /* Assets.xcassets */; };
+		1DEF41502C8E986100354D51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF414F2C8E986100354D51 /* Preview Assets.xcassets */; };
+		1DEF41812C8E9B1A00354D51 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41722C8E9B1A00354D51 /* Ingredient.swift */; };
+		1DEF41822C8E9B1A00354D51 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41722C8E9B1A00354D51 /* Ingredient.swift */; };
+		1DEF41832C8E9B1A00354D51 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41732C8E9B1A00354D51 /* Meal.swift */; };
+		1DEF41842C8E9B1A00354D51 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41732C8E9B1A00354D51 /* Meal.swift */; };
+		1DEF41852C8E9B1A00354D51 /* MealCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41742C8E9B1A00354D51 /* MealCategory.swift */; };
+		1DEF41862C8E9B1A00354D51 /* MealCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41742C8E9B1A00354D51 /* MealCategory.swift */; };
+		1DEF41872C8E9B1A00354D51 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41752C8E9B1A00354D51 /* Recipe.swift */; };
+		1DEF41882C8E9B1A00354D51 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41752C8E9B1A00354D51 /* Recipe.swift */; };
+		1DEF41892C8E9B1A00354D51 /* RecipeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41762C8E9B1A00354D51 /* RecipeCategory.swift */; };
+		1DEF418A2C8E9B1A00354D51 /* RecipeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41762C8E9B1A00354D51 /* RecipeCategory.swift */; };
+		1DEF418B2C8E9B1A00354D51 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41782C8E9B1A00354D51 /* APIManager.swift */; };
+		1DEF418C2C8E9B1A00354D51 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41782C8E9B1A00354D51 /* APIManager.swift */; };
+		1DEF418D2C8E9B1A00354D51 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41792C8E9B1A00354D51 /* URLBuilder.swift */; };
+		1DEF418E2C8E9B1A00354D51 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41792C8E9B1A00354D51 /* URLBuilder.swift */; };
+		1DEF418F2C8E9B1A00354D51 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF417B2C8E9B1A00354D51 /* RecipeService.swift */; };
+		1DEF41902C8E9B1A00354D51 /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF417B2C8E9B1A00354D51 /* RecipeService.swift */; };
+		1DEF41912C8E9B1A00354D51 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF417D2C8E9B1A00354D51 /* RecipeDetailViewModel.swift */; };
+		1DEF41922C8E9B1A00354D51 /* RecipeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF417D2C8E9B1A00354D51 /* RecipeDetailViewModel.swift */; };
+		1DEF41932C8E9B1A00354D51 /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF417E2C8E9B1A00354D51 /* RecipeListViewModel.swift */; };
+		1DEF41942C8E9B1A00354D51 /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF417E2C8E9B1A00354D51 /* RecipeListViewModel.swift */; };
+		1DEF41A22C8E9BAD00354D51 /* UICollectionViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41952C8E9BAD00354D51 /* UICollectionViewExt.swift */; };
+		1DEF41A32C8E9BAD00354D51 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41962C8E9BAD00354D51 /* UIViewExt.swift */; };
+		1DEF41A42C8E9BAD00354D51 /* ExpandableLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41982C8E9BAD00354D51 /* ExpandableLabelView.swift */; };
+		1DEF41A52C8E9BAD00354D51 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41992C8E9BAD00354D51 /* ShadowView.swift */; };
+		1DEF41A62C8E9BAD00354D51 /* WaveBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF419A2C8E9BAD00354D51 /* WaveBackgroundView.swift */; };
+		1DEF41A72C8E9BAD00354D51 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF419C2C8E9BAD00354D51 /* RecipeDetailViewController.swift */; };
+		1DEF41A82C8E9BAD00354D51 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF419D2C8E9BAD00354D51 /* RecipeListViewController.swift */; };
+		1DEF41A92C8E9BAD00354D51 /* RecipeColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF419F2C8E9BAD00354D51 /* RecipeColCell.swift */; };
+		1DEF41AA2C8E9BAD00354D51 /* RecipeColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF41A02C8E9BAD00354D51 /* RecipeColCell.xib */; };
+		1DEF41AD2C8E9BEE00354D51 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEF41AC2C8E9BEE00354D51 /* Kingfisher */; };
+		1DEF41B02C8E9BFE00354D51 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1DEF41AF2C8E9BFE00354D51 /* Kingfisher */; };
+		1DEF41B52C8E9C9900354D51 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41B12C8E9C9900354D51 /* RecipeDetailView.swift */; };
+		1DEF41B62C8E9C9900354D51 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41B22C8E9C9900354D51 /* RecipeListView.swift */; };
+		1DEF41B72C8E9C9900354D51 /* RecipeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF41B32C8E9C9900354D51 /* RecipeRowView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		1DEF40F22C8E91BE00354D51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1DEF40D32C8E91B900354D51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DEF40DA2C8E91B900354D51;
-			remoteInfo = FetchExercise;
-		};
-		1DEF40FC2C8E91BE00354D51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1DEF40D32C8E91B900354D51 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DEF40DA2C8E91B900354D51;
-			remoteInfo = FetchExercise;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1DEF40DB2C8E91B900354D51 /* FetchExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DEF40DE2C8E91B900354D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DEF40E02C8E91B900354D51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1DEF40E22C8E91B900354D51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DEF40E52C8E91B900354D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1DEF40E72C8E91BD00354D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1DEF40EA2C8E91BD00354D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1DEF40EC2C8E91BD00354D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DEF40F12C8E91BE00354D51 /* FetchExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DEF40F52C8E91BE00354D51 /* FetchExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchExerciseTests.swift; sourceTree = "<group>"; };
-		1DEF40FB2C8E91BE00354D51 /* FetchExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DEF40FF2C8E91BE00354D51 /* FetchExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchExerciseUITests.swift; sourceTree = "<group>"; };
-		1DEF41012C8E91BE00354D51 /* FetchExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DEF41122C8E982B00354D51 /* FetchUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEF41142C8E982B00354D51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DEF41162C8E982B00354D51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DEF411B2C8E982B00354D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DEF411D2C8E982E00354D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DEF41202C8E982E00354D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DEF41222C8E982E00354D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEF41462C8E986000354D51 /* FetchSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEF41482C8E986000354D51 /* FetchSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSwiftUIApp.swift; sourceTree = "<group>"; };
+		1DEF414C2C8E986100354D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DEF414F2C8E986100354D51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1DEF41722C8E9B1A00354D51 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		1DEF41732C8E9B1A00354D51 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		1DEF41742C8E9B1A00354D51 /* MealCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealCategory.swift; sourceTree = "<group>"; };
+		1DEF41752C8E9B1A00354D51 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		1DEF41762C8E9B1A00354D51 /* RecipeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCategory.swift; sourceTree = "<group>"; };
+		1DEF41782C8E9B1A00354D51 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1DEF41792C8E9B1A00354D51 /* URLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		1DEF417B2C8E9B1A00354D51 /* RecipeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		1DEF417D2C8E9B1A00354D51 /* RecipeDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewModel.swift; sourceTree = "<group>"; };
+		1DEF417E2C8E9B1A00354D51 /* RecipeListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
+		1DEF41952C8E9BAD00354D51 /* UICollectionViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExt.swift; sourceTree = "<group>"; };
+		1DEF41962C8E9BAD00354D51 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		1DEF41982C8E9BAD00354D51 /* ExpandableLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableLabelView.swift; sourceTree = "<group>"; };
+		1DEF41992C8E9BAD00354D51 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		1DEF419A2C8E9BAD00354D51 /* WaveBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveBackgroundView.swift; sourceTree = "<group>"; };
+		1DEF419C2C8E9BAD00354D51 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		1DEF419D2C8E9BAD00354D51 /* RecipeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		1DEF419F2C8E9BAD00354D51 /* RecipeColCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeColCell.swift; sourceTree = "<group>"; };
+		1DEF41A02C8E9BAD00354D51 /* RecipeColCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeColCell.xib; sourceTree = "<group>"; };
+		1DEF41B12C8E9C9900354D51 /* RecipeDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		1DEF41B22C8E9C9900354D51 /* RecipeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		1DEF41B32C8E9C9900354D51 /* RecipeRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1DEF40D82C8E91B900354D51 /* Frameworks */ = {
+		1DEF410F2C8E982B00354D51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DEF41AD2C8E9BEE00354D51 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DEF40EE2C8E91BE00354D51 /* Frameworks */ = {
+		1DEF41432C8E986000354D51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DEF40F82C8E91BE00354D51 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1DEF41B02C8E9BFE00354D51 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,109 +110,212 @@
 		1DEF40D22C8E91B900354D51 = {
 			isa = PBXGroup;
 			children = (
-				1DEF40DD2C8E91B900354D51 /* FetchExercise */,
-				1DEF40F42C8E91BE00354D51 /* FetchExerciseTests */,
-				1DEF40FE2C8E91BE00354D51 /* FetchExerciseUITests */,
+				1DEF41132C8E982B00354D51 /* FetchUIKit */,
+				1DEF41472C8E986000354D51 /* FetchSwiftUI */,
+				1DEF41712C8E997100354D51 /* Core */,
 				1DEF40DC2C8E91B900354D51 /* Products */,
+				1DEF41AE2C8E9BFE00354D51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		1DEF40DC2C8E91B900354D51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1DEF40DB2C8E91B900354D51 /* FetchExercise.app */,
-				1DEF40F12C8E91BE00354D51 /* FetchExerciseTests.xctest */,
-				1DEF40FB2C8E91BE00354D51 /* FetchExerciseUITests.xctest */,
+				1DEF41122C8E982B00354D51 /* FetchUIKit.app */,
+				1DEF41462C8E986000354D51 /* FetchSwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1DEF40DD2C8E91B900354D51 /* FetchExercise */ = {
+		1DEF41132C8E982B00354D51 /* FetchUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				1DEF40DE2C8E91B900354D51 /* AppDelegate.swift */,
-				1DEF40E02C8E91B900354D51 /* SceneDelegate.swift */,
-				1DEF40E22C8E91B900354D51 /* ViewController.swift */,
-				1DEF40E42C8E91B900354D51 /* Main.storyboard */,
-				1DEF40E72C8E91BD00354D51 /* Assets.xcassets */,
-				1DEF40E92C8E91BD00354D51 /* LaunchScreen.storyboard */,
-				1DEF40EC2C8E91BD00354D51 /* Info.plist */,
+				1DEF41A12C8E9BAD00354D51 /* Cells */,
+				1DEF41972C8E9BAD00354D51 /* Extensions */,
+				1DEF419E2C8E9BAD00354D51 /* Views */,
+				1DEF41142C8E982B00354D51 /* AppDelegate.swift */,
+				1DEF41162C8E982B00354D51 /* SceneDelegate.swift */,
+				1DEF411A2C8E982B00354D51 /* Main.storyboard */,
+				1DEF411D2C8E982E00354D51 /* Assets.xcassets */,
+				1DEF411F2C8E982E00354D51 /* LaunchScreen.storyboard */,
+				1DEF41222C8E982E00354D51 /* Info.plist */,
 			);
-			path = FetchExercise;
+			path = FetchUIKit;
 			sourceTree = "<group>";
 		};
-		1DEF40F42C8E91BE00354D51 /* FetchExerciseTests */ = {
+		1DEF41472C8E986000354D51 /* FetchSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				1DEF40F52C8E91BE00354D51 /* FetchExerciseTests.swift */,
+				1DEF41B42C8E9C9900354D51 /* Views */,
+				1DEF41482C8E986000354D51 /* FetchSwiftUIApp.swift */,
+				1DEF414C2C8E986100354D51 /* Assets.xcassets */,
+				1DEF414E2C8E986100354D51 /* Preview Content */,
 			);
-			path = FetchExerciseTests;
+			path = FetchSwiftUI;
 			sourceTree = "<group>";
 		};
-		1DEF40FE2C8E91BE00354D51 /* FetchExerciseUITests */ = {
+		1DEF414E2C8E986100354D51 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1DEF40FF2C8E91BE00354D51 /* FetchExerciseUITests.swift */,
-				1DEF41012C8E91BE00354D51 /* FetchExerciseUITestsLaunchTests.swift */,
+				1DEF414F2C8E986100354D51 /* Preview Assets.xcassets */,
 			);
-			path = FetchExerciseUITests;
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DEF41712C8E997100354D51 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF41802C8E9B1A00354D51 /* Sources */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1DEF41772C8E9B1A00354D51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF41722C8E9B1A00354D51 /* Ingredient.swift */,
+				1DEF41732C8E9B1A00354D51 /* Meal.swift */,
+				1DEF41742C8E9B1A00354D51 /* MealCategory.swift */,
+				1DEF41752C8E9B1A00354D51 /* Recipe.swift */,
+				1DEF41762C8E9B1A00354D51 /* RecipeCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1DEF417A2C8E9B1A00354D51 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF41782C8E9B1A00354D51 /* APIManager.swift */,
+				1DEF41792C8E9B1A00354D51 /* URLBuilder.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1DEF417C2C8E9B1A00354D51 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF417B2C8E9B1A00354D51 /* RecipeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1DEF417F2C8E9B1A00354D51 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF417D2C8E9B1A00354D51 /* RecipeDetailViewModel.swift */,
+				1DEF417E2C8E9B1A00354D51 /* RecipeListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1DEF41802C8E9B1A00354D51 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF41772C8E9B1A00354D51 /* Models */,
+				1DEF417A2C8E9B1A00354D51 /* Networking */,
+				1DEF417C2C8E9B1A00354D51 /* Services */,
+				1DEF417F2C8E9B1A00354D51 /* ViewModels */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1DEF41972C8E9BAD00354D51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF41952C8E9BAD00354D51 /* UICollectionViewExt.swift */,
+				1DEF41962C8E9BAD00354D51 /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DEF419B2C8E9BAD00354D51 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF41982C8E9BAD00354D51 /* ExpandableLabelView.swift */,
+				1DEF41992C8E9BAD00354D51 /* ShadowView.swift */,
+				1DEF419A2C8E9BAD00354D51 /* WaveBackgroundView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1DEF419E2C8E9BAD00354D51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF419B2C8E9BAD00354D51 /* Common */,
+				1DEF419C2C8E9BAD00354D51 /* RecipeDetailViewController.swift */,
+				1DEF419D2C8E9BAD00354D51 /* RecipeListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1DEF41A12C8E9BAD00354D51 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF419F2C8E9BAD00354D51 /* RecipeColCell.swift */,
+				1DEF41A02C8E9BAD00354D51 /* RecipeColCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1DEF41AE2C8E9BFE00354D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DEF41B42C8E9C9900354D51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF41B12C8E9C9900354D51 /* RecipeDetailView.swift */,
+				1DEF41B22C8E9C9900354D51 /* RecipeListView.swift */,
+				1DEF41B32C8E9C9900354D51 /* RecipeRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1DEF40DA2C8E91B900354D51 /* FetchExercise */ = {
+		1DEF41112C8E982B00354D51 /* FetchUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEF41052C8E91BE00354D51 /* Build configuration list for PBXNativeTarget "FetchExercise" */;
+			buildConfigurationList = 1DEF41392C8E982E00354D51 /* Build configuration list for PBXNativeTarget "FetchUIKit" */;
 			buildPhases = (
-				1DEF40D72C8E91B900354D51 /* Sources */,
-				1DEF40D82C8E91B900354D51 /* Frameworks */,
-				1DEF40D92C8E91B900354D51 /* Resources */,
+				1DEF410E2C8E982B00354D51 /* Sources */,
+				1DEF410F2C8E982B00354D51 /* Frameworks */,
+				1DEF41102C8E982B00354D51 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FetchExercise;
-			productName = FetchExercise;
-			productReference = 1DEF40DB2C8E91B900354D51 /* FetchExercise.app */;
+			name = FetchUIKit;
+			packageProductDependencies = (
+				1DEF41AC2C8E9BEE00354D51 /* Kingfisher */,
+			);
+			productName = FetchUIKit;
+			productReference = 1DEF41122C8E982B00354D51 /* FetchUIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1DEF40F02C8E91BE00354D51 /* FetchExerciseTests */ = {
+		1DEF41452C8E986000354D51 /* FetchSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEF41082C8E91BE00354D51 /* Build configuration list for PBXNativeTarget "FetchExerciseTests" */;
+			buildConfigurationList = 1DEF41672C8E986200354D51 /* Build configuration list for PBXNativeTarget "FetchSwiftUI" */;
 			buildPhases = (
-				1DEF40ED2C8E91BE00354D51 /* Sources */,
-				1DEF40EE2C8E91BE00354D51 /* Frameworks */,
-				1DEF40EF2C8E91BE00354D51 /* Resources */,
+				1DEF41422C8E986000354D51 /* Sources */,
+				1DEF41432C8E986000354D51 /* Frameworks */,
+				1DEF41442C8E986000354D51 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1DEF40F32C8E91BE00354D51 /* PBXTargetDependency */,
 			);
-			name = FetchExerciseTests;
-			productName = FetchExerciseTests;
-			productReference = 1DEF40F12C8E91BE00354D51 /* FetchExerciseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1DEF40FA2C8E91BE00354D51 /* FetchExerciseUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEF410B2C8E91BE00354D51 /* Build configuration list for PBXNativeTarget "FetchExerciseUITests" */;
-			buildPhases = (
-				1DEF40F72C8E91BE00354D51 /* Sources */,
-				1DEF40F82C8E91BE00354D51 /* Frameworks */,
-				1DEF40F92C8E91BE00354D51 /* Resources */,
+			name = FetchSwiftUI;
+			packageProductDependencies = (
+				1DEF41AF2C8E9BFE00354D51 /* Kingfisher */,
 			);
-			buildRules = (
-			);
-			dependencies = (
-				1DEF40FD2C8E91BE00354D51 /* PBXTargetDependency */,
-			);
-			name = FetchExerciseUITests;
-			productName = FetchExerciseUITests;
-			productReference = 1DEF40FB2C8E91BE00354D51 /* FetchExerciseUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			productName = FetchSwiftUI;
+			productReference = 1DEF41462C8E986000354D51 /* FetchSwiftUI.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,16 +327,11 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					1DEF40DA2C8E91B900354D51 = {
+					1DEF41112C8E982B00354D51 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					1DEF40F02C8E91BE00354D51 = {
+					1DEF41452C8E986000354D51 = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 1DEF40DA2C8E91B900354D51;
-					};
-					1DEF40FA2C8E91BE00354D51 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 1DEF40DA2C8E91B900354D51;
 					};
 				};
 			};
@@ -215,100 +344,106 @@
 				Base,
 			);
 			mainGroup = 1DEF40D22C8E91B900354D51;
+			packageReferences = (
+				1DEF41AB2C8E9BEE00354D51 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 1DEF40DC2C8E91B900354D51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DEF40DA2C8E91B900354D51 /* FetchExercise */,
-				1DEF40F02C8E91BE00354D51 /* FetchExerciseTests */,
-				1DEF40FA2C8E91BE00354D51 /* FetchExerciseUITests */,
+				1DEF41112C8E982B00354D51 /* FetchUIKit */,
+				1DEF41452C8E986000354D51 /* FetchSwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1DEF40D92C8E91B900354D51 /* Resources */ = {
+		1DEF41102C8E982B00354D51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEF40E82C8E91BD00354D51 /* Assets.xcassets in Resources */,
-				1DEF40EB2C8E91BD00354D51 /* Base in Resources */,
-				1DEF40E62C8E91B900354D51 /* Base in Resources */,
+				1DEF41AA2C8E9BAD00354D51 /* RecipeColCell.xib in Resources */,
+				1DEF411E2C8E982E00354D51 /* Assets.xcassets in Resources */,
+				1DEF41212C8E982E00354D51 /* Base in Resources */,
+				1DEF411C2C8E982B00354D51 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DEF40EF2C8E91BE00354D51 /* Resources */ = {
+		1DEF41442C8E986000354D51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DEF40F92C8E91BE00354D51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				1DEF41502C8E986100354D51 /* Preview Assets.xcassets in Resources */,
+				1DEF414D2C8E986100354D51 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1DEF40D72C8E91B900354D51 /* Sources */ = {
+		1DEF410E2C8E982B00354D51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEF40E32C8E91B900354D51 /* ViewController.swift in Sources */,
-				1DEF40DF2C8E91B900354D51 /* AppDelegate.swift in Sources */,
-				1DEF40E12C8E91B900354D51 /* SceneDelegate.swift in Sources */,
+				1DEF41A32C8E9BAD00354D51 /* UIViewExt.swift in Sources */,
+				1DEF41852C8E9B1A00354D51 /* MealCategory.swift in Sources */,
+				1DEF41A22C8E9BAD00354D51 /* UICollectionViewExt.swift in Sources */,
+				1DEF41832C8E9B1A00354D51 /* Meal.swift in Sources */,
+				1DEF41A62C8E9BAD00354D51 /* WaveBackgroundView.swift in Sources */,
+				1DEF41872C8E9B1A00354D51 /* Recipe.swift in Sources */,
+				1DEF418B2C8E9B1A00354D51 /* APIManager.swift in Sources */,
+				1DEF41812C8E9B1A00354D51 /* Ingredient.swift in Sources */,
+				1DEF41A92C8E9BAD00354D51 /* RecipeColCell.swift in Sources */,
+				1DEF41A82C8E9BAD00354D51 /* RecipeListViewController.swift in Sources */,
+				1DEF41912C8E9B1A00354D51 /* RecipeDetailViewModel.swift in Sources */,
+				1DEF418D2C8E9B1A00354D51 /* URLBuilder.swift in Sources */,
+				1DEF41A72C8E9BAD00354D51 /* RecipeDetailViewController.swift in Sources */,
+				1DEF418F2C8E9B1A00354D51 /* RecipeService.swift in Sources */,
+				1DEF41892C8E9B1A00354D51 /* RecipeCategory.swift in Sources */,
+				1DEF41932C8E9B1A00354D51 /* RecipeListViewModel.swift in Sources */,
+				1DEF41A52C8E9BAD00354D51 /* ShadowView.swift in Sources */,
+				1DEF41152C8E982B00354D51 /* AppDelegate.swift in Sources */,
+				1DEF41172C8E982B00354D51 /* SceneDelegate.swift in Sources */,
+				1DEF41A42C8E9BAD00354D51 /* ExpandableLabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DEF40ED2C8E91BE00354D51 /* Sources */ = {
+		1DEF41422C8E986000354D51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DEF40F62C8E91BE00354D51 /* FetchExerciseTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DEF40F72C8E91BE00354D51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DEF41002C8E91BE00354D51 /* FetchExerciseUITests.swift in Sources */,
-				1DEF41022C8E91BE00354D51 /* FetchExerciseUITestsLaunchTests.swift in Sources */,
+				1DEF418C2C8E9B1A00354D51 /* APIManager.swift in Sources */,
+				1DEF41842C8E9B1A00354D51 /* Meal.swift in Sources */,
+				1DEF41922C8E9B1A00354D51 /* RecipeDetailViewModel.swift in Sources */,
+				1DEF418E2C8E9B1A00354D51 /* URLBuilder.swift in Sources */,
+				1DEF418A2C8E9B1A00354D51 /* RecipeCategory.swift in Sources */,
+				1DEF41862C8E9B1A00354D51 /* MealCategory.swift in Sources */,
+				1DEF41882C8E9B1A00354D51 /* Recipe.swift in Sources */,
+				1DEF41B72C8E9C9900354D51 /* RecipeRowView.swift in Sources */,
+				1DEF41B52C8E9C9900354D51 /* RecipeDetailView.swift in Sources */,
+				1DEF41942C8E9B1A00354D51 /* RecipeListViewModel.swift in Sources */,
+				1DEF41902C8E9B1A00354D51 /* RecipeService.swift in Sources */,
+				1DEF41492C8E986000354D51 /* FetchSwiftUIApp.swift in Sources */,
+				1DEF41B62C8E9C9900354D51 /* RecipeListView.swift in Sources */,
+				1DEF41822C8E9B1A00354D51 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		1DEF40F32C8E91BE00354D51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DEF40DA2C8E91B900354D51 /* FetchExercise */;
-			targetProxy = 1DEF40F22C8E91BE00354D51 /* PBXContainerItemProxy */;
-		};
-		1DEF40FD2C8E91BE00354D51 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DEF40DA2C8E91B900354D51 /* FetchExercise */;
-			targetProxy = 1DEF40FC2C8E91BE00354D51 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		1DEF40E42C8E91B900354D51 /* Main.storyboard */ = {
+		1DEF411A2C8E982B00354D51 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DEF40E52C8E91B900354D51 /* Base */,
+				1DEF411B2C8E982B00354D51 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1DEF40E92C8E91BD00354D51 /* LaunchScreen.storyboard */ = {
+		1DEF411F2C8E982E00354D51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DEF40EA2C8E91BD00354D51 /* Base */,
+				1DEF41202C8E982E00354D51 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -435,7 +570,7 @@
 			};
 			name = Release;
 		};
-		1DEF41062C8E91BE00354D51 /* Debug */ = {
+		1DEF413A2C8E982E00354D51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +578,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FetchExercise/Info.plist;
+				INFOPLIST_FILE = FetchUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -454,7 +589,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchExercise;
+				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +597,7 @@
 			};
 			name = Debug;
 		};
-		1DEF41072C8E91BE00354D51 /* Release */ = {
+		1DEF413B2C8E982E00354D51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -470,7 +605,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FetchExercise/Info.plist;
+				INFOPLIST_FILE = FetchUIKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -481,7 +616,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchExercise;
+				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -489,75 +624,59 @@
 			};
 			name = Release;
 		};
-		1DEF41092C8E91BE00354D51 /* Debug */ = {
+		1DEF41682C8E986200354D51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchExerciseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchExercise";
 			};
 			name = Debug;
 		};
-		1DEF410A2C8E91BE00354D51 /* Release */ = {
+		1DEF41692C8E986200354D51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchExerciseTests;
+				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchExercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchExercise";
-			};
-			name = Release;
-		};
-		1DEF410C2C8E91BE00354D51 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchExerciseUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchExercise;
-			};
-			name = Debug;
-		};
-		1DEF410D2C8E91BE00354D51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fetch.exercise.FetchExerciseUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FetchExercise;
 			};
 			name = Release;
 		};
@@ -573,34 +692,49 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEF41052C8E91BE00354D51 /* Build configuration list for PBXNativeTarget "FetchExercise" */ = {
+		1DEF41392C8E982E00354D51 /* Build configuration list for PBXNativeTarget "FetchUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEF41062C8E91BE00354D51 /* Debug */,
-				1DEF41072C8E91BE00354D51 /* Release */,
+				1DEF413A2C8E982E00354D51 /* Debug */,
+				1DEF413B2C8E982E00354D51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEF41082C8E91BE00354D51 /* Build configuration list for PBXNativeTarget "FetchExerciseTests" */ = {
+		1DEF41672C8E986200354D51 /* Build configuration list for PBXNativeTarget "FetchSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DEF41092C8E91BE00354D51 /* Debug */,
-				1DEF410A2C8E91BE00354D51 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DEF410B2C8E91BE00354D51 /* Build configuration list for PBXNativeTarget "FetchExerciseUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DEF410C2C8E91BE00354D51 /* Debug */,
-				1DEF410D2C8E91BE00354D51 /* Release */,
+				1DEF41682C8E986200354D51 /* Debug */,
+				1DEF41692C8E986200354D51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1DEF41AB2C8E9BEE00354D51 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1DEF41AC2C8E9BEE00354D51 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEF41AB2C8E9BEE00354D51 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		1DEF41AF2C8E9BFE00354D51 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DEF41AB2C8E9BEE00354D51 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1DEF40D32C8E91B900354D51 /* Project object */;
 }
